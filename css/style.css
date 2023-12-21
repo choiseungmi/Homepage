@@ -171,8 +171,8 @@
   /* color: rgba(0, 0, 0, .1); */
   position: absolute;
   z-index: 12;
-  top: 20%;
-  left: 5%;
+  top: 15%;
+  left: 2%;
   width: 80%;
   height: 50%;
   display: block;
@@ -252,12 +252,20 @@
 /*** About ***/
 @media (min-width: 992px) {
   .container.about {
-    max-width: 100% !important;
+    /* max-width: 100% !important; */
+    max-width: 90%;
   }
 
-  .about-text {
+  /* .about-text {
     padding-right: calc(((100% - 960px) / 2) + 0.75rem);
+  } */
+
+  .about-text {
+    /* padding-right: calc(((100% - 0px) / 2)); */
+    padding-right: calc(((100% - 960px) / 2) + 0.75rem);
+
   }
+
 }
 
 @media (min-width: 1200px) {
