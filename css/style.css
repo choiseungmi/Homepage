@@ -328,6 +328,10 @@
   }
 }
 
+/* i.check {
+  text-indent: -20px
+} */
+
 /*** Project Portfolio ***/
 #portfolio-flters li {
   display: inline-block;
