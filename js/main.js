@@ -32,7 +32,7 @@
     }
   });
   $(".back-to-top").click(function () {
-    $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
+    $("html, body").animate({ scrollTop: 0 }, 500, "easeInOutExpo");
     return false;
   });
 
@@ -94,7 +94,7 @@ $(document).ready(function () {
 
   // loading time
   $(window).load(function () {
-    $("#loading").fadeOut(700);
+    $("#loading").fadeOut(500);
   });
 
   if (filename == "research") {
